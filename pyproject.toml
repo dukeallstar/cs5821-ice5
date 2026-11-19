@@ -1,0 +1,14 @@
+[project]
+name = "ice5"
+version = "0.1.0"
+description = "ICE 5: Model Selection (Exhaustive Best Subset & Forward Stepwise Selection)"
+readme = "instructions.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "scikit-learn>=1.3.0",
+    "statsmodels>=0.14.0",
+    "pytest>=8.0.0",
+]
